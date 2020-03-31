@@ -1235,7 +1235,7 @@
 					<key>match</key> <string>\s*\b(sizeof|(?:__|(?!\w+__))typeof(?:__)?)\b</string>
 					<key>captures</key>
 					<dict>
-						<key>1</key> <dict> <key>name</key> <string>keyword.operator.c</string> </dict>
+						<key>1</key> <dict> <key>name</key> <string>keyword.operator.word.c</string> </dict>
 					</dict>
 				</dict>
 				<dict>
@@ -1271,49 +1271,49 @@
 					<key>match</key>
 					<string>(\-|\+|\*|\/|%|&amp;|\||\^|&lt;&lt;|&gt;&gt;)?=</string>
 					<key>name</key>
-					<string>keyword.operator.assignment.c</string>
+					<string>keyword.operator.word.assignment.c</string>
 				</dict>
 				<dict>
 					<key>match</key>
 					<string>(==|!=|&lt;=|&gt;=|&lt;&gt;|&lt;|&gt;)</string>
 					<key>name</key>
-					<string>keyword.operator.comparison.c</string>
+					<string>keyword.operator.word.comparison.c</string>
 				</dict>
 				<dict>
 					<key>match</key>
 					<string>(\-\-|\+\+)</string>
 					<key>name</key>
-					<string>keyword.operator.increment-decrement.c</string>
+					<string>keyword.operator.word.increment-decrement.c</string>
 				</dict>
 				<dict>
 					<key>match</key>
 					<string>(\?|:)</string>
 					<key>name</key>
-					<string>keyword.operator.ternary.c</string>
+					<string>keyword.operator.word.ternary.c</string>
 				</dict>
 				<dict>
 					<key>match</key>
 					<string>(\-|\+|\*|\/|%)</string>
 					<key>name</key>
-					<string>keyword.operator.arithmetic.c</string>
+					<string>keyword.operator.word.arithmetic.c</string>
 				</dict>
 				<dict>
 					<key>match</key>
 					<string>(!|&amp;&amp;|\|\|)</string>
 					<key>name</key>
-					<string>keyword.operator.logical.c</string>
+					<string>keyword.operator.word.logical.c</string>
 				</dict>
 				<dict>
 					<key>match</key>
 					<string>(~|&amp;|\||\^|&lt;&lt;|&gt;&gt;)</string>
 					<key>name</key>
-					<string>keyword.operator.bitwise.c</string>
+					<string>keyword.operator.word.bitwise.c</string>
 				</dict>
 				<dict>
 					<key>match</key>
 					<string>(\.|-&gt;)(?=(?:\s|/\*.*?\*/)*+[A-Za-z_]\w*+)</string>
 					<key>name</key>
-					<string>keyword.operator.dereference.c</string>
+					<string>keyword.operator.word.dereference.c</string>
 				</dict>
 			</array>
 		</dict>
